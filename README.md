@@ -1,88 +1,32 @@
-# CPSC 485 Assignment 5
+# CPSC 485 Programming Assignment 1
 
 Calculate the edit distance between two strings in rust.
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
 ### Prerequisites
 
-* Rust (Installed via [Rustup](https://rustup.rs/#))
+* Rust Nightly (Installed via [Rustup](https://rustup.rs/#))
 
-#### Unix Example
-```
-curl https://sh.rustup.rs -sSf | sh // Install Rust
-```
-
-### Installing
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
+Unix Example:
+```sh
+curl https://sh.rustup.rs -sSf | sh # Install Rustup
+rustup install nightly # Install rust nightly
+rustup default nightly # Set nightly to default toolchain
 ```
 
-And repeat
+### Downloading <small>(Optional)</small>
+If you don't already have a copy of the code you can download it from it's git repository at https://github.com/FallingSnow/CPSC485_Program1.git.
 
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
+```sh
+git clone https://github.com/FallingSnow/CPSC485_Program1.git
+cd CPSC485_Program1
 ```
 
-### And coding style tests
+### Compiling
 
-Explain what these tests test and why
+Compile & run the code via cargo.
 
+```sh
+cargo run
 ```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
