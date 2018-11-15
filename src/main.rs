@@ -1,13 +1,10 @@
 #![feature(vec_resize_with, vec_resize_default, self_struct_ctor)]
-// #[macro_use]
-// extern crate failure;
 
 use console::Term;
-use failure::Error;
 use std::cmp::min;
 use std::io::Write;
 
-type Result<T> = core::result::Result<T, Error>;
+type Result<T> = core::result::Result<T, std::io::Error>;
 
 #[derive(Debug)]
 struct TwoDMatrix(Vec<Vec<usize>>);
