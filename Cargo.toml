@@ -1,0 +1,9 @@
+[package]
+name = "assignment1"
+version = "0.1.0"
+authors = ["Ayrton Sparling <ayrton@sparling.us>"]
+edition = "2018"
+
+[dependencies]
+failure = "0.1.3"
+console = "0.6.2"
